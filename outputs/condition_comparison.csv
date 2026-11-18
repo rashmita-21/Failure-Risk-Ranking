@@ -1,0 +1,8 @@
+category,record_count,mean_torque_nm,mean_rotational_speed_rpm,mean_tool_wear_min,mean_temp_diff_k,associated_condition
+Non-Failed (Normal),9661,39.63,1540.26,106.69,10.02,Baseline operational regime
+All Failed (Machine failure=1),339,50.17,1496.49,143.78,9.4,"Elevated torque (+26.6%) and tool wear (+34.8%), lower speed (-2.8%) & temp diff (-6.2%)"
+Mode: Tool Wear Failure (TWF),46,37.84,1566.17,216.37,9.87,"Extreme tool wear (mean 216.4 min vs 106.7 min baseline, +102.8%)"
+Mode: Heat Dissipation Failure (HDF),115,53.17,1337.26,107.19,8.23,"Low temperature difference (mean 8.23 K vs 10.02 K baseline, -17.9%) & low speed (1337 rpm)"
+Mode: Power Failure (PWF),95,48.51,1763.97,101.88,9.88,"High rotational speed (mean 1764 rpm, +14.5%) and high torque variance (out-of-bounds power)"
+Mode: Overstrain Failure (OSF),98,58.37,1350.33,207.69,10.03,"Severe torque (mean 58.37 Nm, +47.3%) combined with high wear (mean 207.7 min, +94.7%)"
+Mode: Random Failure (RNF),19,43.67,1485.0,124.47,9.95,Uniform parameter distribution; no strong correlation (stochastic baseline failure)

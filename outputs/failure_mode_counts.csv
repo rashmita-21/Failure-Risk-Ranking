@@ -1,0 +1,6 @@
+failure_mode,count,percentage,cumulative_percentage
+HDF,115,30.83,30.83
+OSF,98,26.27,57.1
+PWF,95,25.47,82.57
+TWF,46,12.33,94.91
+RNF,19,5.09,100.0

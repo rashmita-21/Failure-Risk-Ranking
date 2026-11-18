@@ -1,0 +1,16 @@
+rank,segment_label,type,tool_wear_band,record_count,failure_count,failure_probability,dominant_failure_mode,probability_score,consequence_score,risk_score,risk_class,low_confidence_flag
+1,H x 200+,H,200+,75,8,0.10666666666666667,twf,5,4,20,Critical,False
+2,L x 200+,L,200+,503,92,0.18290258449304175,osf,5,3,15,Critical,False
+3,M x 200+,M,200+,223,23,0.1031390134529148,twf,5,3,15,Critical,False
+4,H x 100-150,H,100-150,231,6,0.025974025974025976,hdf,3,5,15,Critical,False
+5,L x 150-200,L,150-200,1366,47,0.034407027818448024,osf,4,3,12,High,False
+6,M x 100-150,M,100-150,682,19,0.02785923753665689,hdf,3,4,12,High,False
+7,M x 50-100,M,50-100,695,15,0.02158273381294964,pwf,3,4,12,High,False
+8,H x 0-50,H,0-50,232,3,0.01293103448275862,hdf,2,5,10,High,False
+9,L x 50-100,L,50-100,1341,34,0.02535421327367636,hdf,3,3,9,Medium,False
+10,L x 0-50,L,0-50,1413,35,0.024769992922859165,hdf,3,3,9,Medium,False
+11,M x 0-50,M,0-50,704,14,0.019886363636363636,pwf,2,4,8,Medium,False
+12,M x 150-200,M,150-200,693,12,0.017316017316017316,hdf,2,4,8,Medium,False
+13,L x 100-150,L,100-150,1377,27,0.0196078431372549,pwf,2,3,6,Medium,False
+14,H x 150-200,H,150-200,230,2,0.008695652173913044,pwf,1,5,5,Low,False
+15,H x 50-100,H,50-100,235,2,0.00851063829787234,hdf,1,5,5,Low,False
